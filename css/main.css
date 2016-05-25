@@ -31,9 +31,13 @@ p {
   margin: 0.6em 0;
 }
 
-a {
+a, .link {
   color: rgb(7, 140, 198);
   text-decoration: none;
+}
+
+.link {
+  cursor: pointer;
 }
 
 .page-title {
@@ -58,12 +62,17 @@ h2 {
 }
 
 .emoji {
-  font-size: 2em;
+  font-size: 2.1em;
   cursor: pointer;
 }
 
 .hidden {
   visibility: hidden;
+}
+
+.small {
+  display: inline;
+  font-size: 0.6em;
 }
 
 .row {
